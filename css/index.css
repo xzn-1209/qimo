@@ -1,0 +1,312 @@
+*{
+  margin:0;
+  padding:0;
+}
+html,body,.main{
+  height:100%;
+}
+body{
+
+}
+.main{
+  position: relative;
+  max-width:750px;
+  margin:0 auto;
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+} 
+.page1{
+  position: relative;
+  background:url("../images/beijing.jpg") center center no-repeat;
+  background-size:100% 100%;
+}
+.page1>img{
+  position:absolute;
+
+}
+.dest{
+  width:6.55rem;
+  height:3.31rem;
+  top:0.54rem;
+  right:0;
+}
+.peoples{
+  width:100%;
+  height:4.02rem;
+  bottom:0;
+  left:0;
+
+}
+.geren{
+    width: 8.8rem;
+    height: 8.9rem;
+    left: -0.6rem;
+    top: 2rem;
+}
+
+
+.swiper-button-next{
+  width:0.5rem;
+  height:0.4rem;
+  background:url("../images/arrow.png") center center no-repeat;
+  background-size:cover;
+  bottom: 0.5rem;
+  top: auto;
+  left: 50%;
+  right: auto;
+  margin-left: -0.25rem;
+  animation:slideInUp 1s infinite;
+}
+
+
+@-webkit-keyframes slideInUp {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInUp {
+  -webkit-animation-name: slideInUp;
+  animation-name: slideInUp;
+}
+
+@-webkit-keyframes slideOutDown {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    visibility: hidden;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+}
+
+/* 二 */
+.page2{
+    position: relative;
+}
+.page2>img{
+    position: absolute;
+}
+.page2{
+    height:100%;
+    background:url("../images/beijing.jpg") center center no-repeat;
+    background-size:cover;
+}
+
+.busan{
+    width:2.26rem;
+    height:1.82rem;
+    right:0.6rem;
+    top:1.8rem;
+}
+
+.bottom1{
+    width:1.33rem;
+    height:1rem;
+    left:0.8rem;
+    bottom:0.7rem;
+}
+.bottom2{
+    width:1.75rem;
+    height:1.19rem;
+    bottom:0.7rem;
+    left:50%;
+    margin-left:-0.875rem;
+}
+.bottom3{
+    width:1.48rem;
+    height:0.85rem;
+    right:0.8rem;
+    bottom:0.7rem;
+
+}
+.textContent{
+    position:absolute;
+    font-size:0.32rem;
+    left:0.8rem;
+    top:3.5rem;
+    line-height:0.64rem;
+    color:darkorange;
+}
+
+/* 三 */
+.page3{
+  position: relative;
+}
+.page3>img{
+  position: absolute;
+}
+.page3{
+  height:100%;
+  background:url("../images/beijing.jpg") center center no-repeat;
+  background-size:cover;
+}
+.zuopinji{
+    width: 8.8rem;
+    height: 8.8rem;
+    left: -0.5rem;
+    top: -1.4rem;
+}
+.zuopin{
+  width: 8.8rem;
+    height: 8.8rem;
+    left: -0.3rem;
+    top: -1.5rem;
+}
+.busan{
+  width:2.26rem;
+  height:1.82rem;
+  right:0.6rem;
+  top:1.8rem;
+}
+.yi{
+  width: 4.9rem;
+    height: 2.2rem;
+    left: 1.4rem;
+    top: 4.2rem;
+}
+.disan{
+  width: 4.9rem;
+    height: 4.2rem;
+    left: 1.4rem;
+    top: 6.8rem;
+}
+
+
+
+.music{
+    width:1rem;
+    height:1rem;
+    background:url("../images/2..jpg") center center no-repeat;
+    background-size:cover;
+    position: absolute;
+    left:0.2rem;
+    top:0.2rem;
+    z-index:999;
+    border-radius:50%;
+    animation: music 2s linear infinite;
+}
+@keyframes music{
+    100%{
+        transform: rotate(360deg)
+    }
+}
+/* 四 */
+.page4{
+  position: relative;
+}
+.page4>img{
+  position: absolute;
+}
+.page4{
+  height:100%;
+  background:url("../images/beijing.jpg") center center no-repeat;
+  background-size:cover;
+}
+.zuopinji{
+    width: 8.8rem;
+    height: 8.8rem;
+    left: -0.5rem;
+    top: -1.4rem;
+}
+.zuopin{
+  width: 8.8rem;
+    height: 8.8rem;
+    left: -0.3rem;
+    top: -1.5rem;
+}
+.disi{
+  width: 3.1rem;
+    height: 4.2rem;
+    left: 0.4rem;
+    top: 3.9rem;
+}
+.diwu{
+  width: 3.3rem;
+  height: 4.2rem;
+  left: 3.9rem;
+  top: 3.9rem;
+}
+.mogu{
+  width: 6.3rem;
+    height: 3.9rem;
+    left: 0.6rem;
+    top: 8.9rem;
+}
+/* 五 */
+.page5{
+  position: relative;
+}
+.page5>img{
+  position: absolute;
+}
+.page5{
+  height:100%;
+  background:url("../images/beijing.jpg") center center no-repeat;
+  background-size:cover;
+}
+.zuopinji{
+    width: 8.8rem;
+    height: 8.8rem;
+    left: -0.5rem;
+    top: -1.4rem;
+}
+.zi{
+  width: 8.8rem;
+    height: 8.8rem;
+    left: -0.3rem;
+    top: -1.2rem;
+}
+.erweima{
+  width: 4.2rem;
+    height: 4.2rem;
+    left: 1.7rem;
+    top: 4.5rem;
+}
+/* 六 */
+.page6{
+  position: relative;
+}
+.page6>img{
+  position: absolute;
+}
+.page6{
+  height:100%;
+  background:url("../images/beijing.jpg") center center no-repeat;
+  background-size:cover;
+}
+
+.xiexie{
+  width: 9.8rem;
+  height: 9.8rem;
+  left: -1.2rem;
+  top: 1.5rem;
+
+
+
+
